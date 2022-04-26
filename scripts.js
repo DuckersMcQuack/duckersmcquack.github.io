@@ -1,0 +1,1 @@
+$(document).ready(function(){$('.spec_section').click(function(event){event.stopPropagation();});$('#wrapper, .floatingthing').click(function(event){$('#pc, #battlestation, #dog, #server').fadeToggle(600);});$("#wrapper").click();});img1=new Image();img1.src="./images/battlestation.jpg";
